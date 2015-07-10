@@ -1,0 +1,80 @@
+/*** GLOBAL STYLES ***/
+
+body {
+    background-color: #dedede;
+    font-family: "Helvetica", "Arial", Sans-Serif;
+}
+
+.main-container {
+    margin: auto;
+    background-color: #fff;
+}
+
+h1 {
+    font-size: 26px;
+    padding: 20px 0;
+}
+h2 {
+    font-size: 22px;
+    padding: 20px 0;
+}
+
+p {
+    font-size: 14px;
+    padding: 20px 0;
+}
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+/*** MOBILE ***/
+
+.main-container {
+    width: 640px;
+    padding: 20px;
+}
+
+.content-box {
+    margin: 10px;
+    float: left;
+}
+
+.box1 {
+    background-color: #f4ed48;
+    width: 560px;
+    padding: 20px;
+}
+.box4 {
+    background-color: #eeeeee;
+    padding: 20px;
+    width: 250px;
+    height: 210px;
+}
+.box8 {
+    background-color: #eeeeee;
+    width: 560px;
+    padding: 20px;
+}
+.box9 {
+    background-color: #eeeeee;
+    padding: 20px;
+    width: 250px;
+    height: 210px;
+}
+.box11 {
+    background-color: #f4ed48;
+    width: 560px;
+    padding: 20px;
+    text-align: center;
+}
+/*** DESKTOP ***/
+
+@media only screen and (min-width: 998px) {
+    .main-container {
+        width: 960px;
+    }
+}
