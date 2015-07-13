@@ -51,6 +51,7 @@ p {
         background-color: #f4ed48;
         width: 560px;
         padding: 20px;
+        margin: 0 10px;
     }
     .box1words {}
     .box2 {
@@ -105,8 +106,8 @@ p {
     .box10 {
         background-image: url(../images/image-box2.jpg);
         background-size: cover;
-        width: 250px;
-        height: 210px;
+        width: 290px;
+        height: 250px;
     }
     .box11 {
         background-color: #f4ed48;
