@@ -3,17 +3,21 @@
 body {
     background-color: #dedede;
     font-family: "Helvetica", "Arial", Sans-Serif;
+    font-weight: 200;
 }
 
 .main-container {
     margin: auto;
-    background-color: #fff;
+    background-color: #F8F8F8;
+    border: 1px solid black;
+    margin: 30px auto;
 }
 
 h1 {
     font-size: 26px;
     padding: 20px 0;
 }
+
 h2 {
     font-size: 22px;
     padding: 20px 0;
@@ -23,58 +27,206 @@ p {
     font-size: 14px;
     padding: 20px 0;
 }
+
 .clearfix:after {
-     visibility: hidden;
-     display: block;
-     font-size: 0;
-     content: " ";
-     clear: both;
-     height: 0;
-     }
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
 /*** MOBILE ***/
 
-.main-container {
-    width: 640px;
-    padding: 20px;
-}
-
-.content-box {
-    margin: 10px;
-    float: left;
-}
-
-.box1 {
-    background-color: #f4ed48;
-    width: 560px;
-    padding: 20px;
-}
-.box4 {
-    background-color: #eeeeee;
-    padding: 20px;
-    width: 250px;
-    height: 210px;
-}
-.box8 {
-    background-color: #eeeeee;
-    width: 560px;
-    padding: 20px;
-}
-.box9 {
-    background-color: #eeeeee;
-    padding: 20px;
-    width: 250px;
-    height: 210px;
-}
-.box11 {
-    background-color: #f4ed48;
-    width: 560px;
-    padding: 20px;
-    text-align: center;
+@media screen and (max-width: 768px) {
+    .main-container {
+        width: 640px;
+        padding: 20px;
+    }
+    .content-box {
+        margin: 10px;
+        float: left;
+    }
+    .box1 {
+        background-color: #f4ed48;
+        width: 560px;
+        padding: 20px;
+    }
+    .box1words {}
+    .box2 {
+        height: 250px;
+        width: 290px;
+        background-image: url(../images/image-box2.jpg);
+        background-origin: content-box;
+        background-size: cover;
+    }
+    .box3 {
+        height: 250px;
+        width: 290px;
+        background-image: url(../images/image-box3.jpg);
+        background-origin: content-box;
+        background-size: cover;
+    }
+    .box4 {
+        background-color: #eeeeee;
+        padding: 20px;
+        width: 250px;
+        height: 210px;
+    }
+    .box5 {
+        background-image: url(../images/image-box5.jpg);
+        height: 250px;
+        width: 290px;
+        background-size: contain;
+    }
+    .box6 {
+        height: 250px;
+        width: 290px;
+        background-image: url(../images/image-box6.jpg);
+        background-size: contain;
+    }
+    .box7 {
+        height: 250px;
+        width: 290px;
+        background-image: url(../images/image-box7.jpg);
+        background-size: contain;
+    }
+    .box8 {
+        background-color: #eeeeee;
+        width: 560px;
+        padding: 20px;
+    }
+    .box9 {
+        background-color: #eeeeee;
+        padding: 20px;
+        width: 250px;
+        height: 210px;
+    }
+    .box10 {
+        background-image: url(../images/image-box2.jpg);
+        background-size: cover;
+        width: 250px;
+        height: 210px;
+    }
+    .box11 {
+        background-color: #f4ed48;
+        width: 560px;
+        padding: 20px;
+        text-align: center;
+    }
 }
 /*** DESKTOP ***/
 
 @media only screen and (min-width: 998px) {
     .main-container {
-        width: 960px;
+        width: 1080px;
+        padding: 20px;
+    }
+    .content-box {
+        margin: 10px auto;
+        float: right;
+    }
+    .box1 {
+        background-color: #f4ed48;
+        width: 480px;
+        height: 475px;
+        padding: 20px;
+        float: left;
+        overflow: hidden;
+        margin: 10px;
+    }
+    .box2 {
+        float: left;
+        height: 290px;
+        width: 250px;
+        margin: 10px 0px;
+        margin-right: 10px;
+        background-image: url(../images/image-box2.jpg);
+        background-size: contain;
+    }
+    .box3 {
+        height: 170px;
+        width: 252px;
+        margin: 0 -1px;
+        background-image: url(../images/image-box2.jpg);
+        background-size: contain;
+        background-position: top;
+    }
+    .box3border {
+        float: left;
+        height: 260px;
+        width: 250px;
+        margin: 10px 0;
+        background-color: white;
+        border-bottom: 1px solid white;
+        border-left: 1px solid white;
+        border-right: 1px solid white;
+    }
+    .box4 {
+        background-color: #eeeeee;
+        margin: 5px;
+        height: 250px;
+        width: 250px;
+        float: left;
+    }
+    .box4words {
+        text-align: left;
+        padding: 30px 20px;
+    }
+    .box5 {
+        height: 250px;
+        width: 250px;
+        background-image: url(../images/image-box5.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-right: 23px;
+        margin-top: 5px;
+    }
+    .box6 {
+        height: 250px;
+        width: 250px;
+        background-color: white;
+        background-size: contain;
+        background-image: url(../images/image-box6.jpg);
+        margin: 10px;
+        float: left;
+    }
+    .box7 {
+        height: 250px;
+        width: 250px;
+        background-image: url(../images/image-box7.jpg);
+        background-size: contain;
+        background-origin: border-box;
+        margin: 10px;
+        float: left;
+    }
+    .box8 {
+        background-color: #eeeeee;
+        width: 470px;
+        height: 480px;
+        padding: 20px;
+        margin-right: 25px;
+    }
+    .box9 {
+        background-color: #eeeeee;
+        height: 220px;
+        width: 230px;
+        padding: 15px 10px;
+        float: left;
+        margin-left: 10px;
+    }
+    .box10 {
+        background-image: url(../images/image-box2.jpg);
+        background-size: cover;
+        height: 250px;
+        width: 250px;
+        margin-right: 15px;
+    }
+   
+    .topboxes {
+        width: 530px;
+        height: 270px;
+        overflow: hidden;
+        margin: 0px auto;
     }
 }
